@@ -5,14 +5,14 @@
 //   msg: String,
 // })
 
-import { computed } from "vue";
-import { useRoute, useRouter } from "vue-router";
+import {computed} from 'vue';
+import {useRoute, useRouter} from 'vue-router';
 
 const route = useRoute();
 const router = useRouter();
 
 const targetRoute = computed(() => {
-  return route.path === "/main" ? "/" : "/main";
+  return route.path === '/main' ? '/' : '/main';
 });
 </script>
 
@@ -63,7 +63,7 @@ const targetRoute = computed(() => {
 </template>
 
 <style scoped lang="scss">
-@import "../assets/style/var";
+@import '../assets/style/var';
 header {
   border: black 1px solid;
 
