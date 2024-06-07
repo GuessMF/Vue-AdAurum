@@ -14,4 +14,9 @@ import Content from '../components/Content.vue';
 .wrapper {
   gap: 30px;
 }
+@media (max-width: 991px) {
+  .wrapper {
+    flex-direction: column;
+  }
+}
 </style>

@@ -1,5 +1,4 @@
 <script setup>
-// import Sidebar from "../../";
 import Sidebar from '../components/Sidebar.vue';
 import Content from '../components/Content.vue';
 </script>
@@ -13,5 +12,10 @@ import Content from '../components/Content.vue';
 <style scoped lang="scss">
 .wrapper {
   gap: 30px;
+}
+@media (max-width: 991px) {
+  .wrapper {
+    flex-direction: column;
+  }
 }
 </style>
