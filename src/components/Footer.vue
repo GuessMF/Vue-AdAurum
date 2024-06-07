@@ -5,17 +5,17 @@
     <div class="wrapper row">
       <div class="footer__left row">
         <a><img src="../assets/images/logo__footer.webp" alt="" /></a>
-        <router-link :to="targetRoute" class="footer__link row centered">
-          <p>Политика конфиденциальности</p></router-link
+        <a class="footer__link row centered">
+          <p>Политика конфиденциальности</p></a
         >
       </div>
 
       <ul class="footer__list row centered">
         <li class="footer__item row centered">
           <img src="../assets/icons/mail-to.svg" alt="" />
-          <router-link :to="targetRoute" class="footer__link row centered">
+          <a class="footer__link row centered">
             <p>pinkchicken@adaurum.ru</p>
-          </router-link>
+          </a>
         </li>
 
         <li class="footer__item row centered">
